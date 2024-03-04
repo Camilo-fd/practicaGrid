@@ -1,0 +1,78 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
+body{
+    background: var(--color-secundary);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "MacBookAir MacBookApp MacBookApp"
+    "MacBookAir MacBookApp MacBookApp"
+    "MacBookAirScreem MacBookAirScreem MacBookPro"
+    "MacBookAirScreem MacBookAirScreem MacBookPro";
+    grid-gap: 8px;
+    width: 800px;
+    height: 700px;
+    margin: 15px auto;
+}
+
+.container div{
+    background: var(--color-secundary);
+    border-radius: 10px;
+}
+
+.item__1{
+    grid-area: MacBookAir;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item__1 img{
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.item__1 p{
+    color: var(--color--title);
+}
+
+.price{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.item__2{
+    grid-area: MacBookProApp;
+}
+
+.item__3{
+    grid-area: MacBookAirScreem;
+}
+
+.item__4{
+    grid-area: MacBookPro;
+}
+
+@media(width < 800px){
+    .container{
+        width: 100%;
+        grid-template-areas: 
+        "MacBookAir MacBookAir MacBookAir"
+        "MacBookProApp MacBookProApp MacBookProApp"
+        "MacBookAirScreem MacBookAirScreem MacBookAir"
+        "MacBookPro MacBookPro MacBookPro";
+    }
+}
