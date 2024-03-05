@@ -21,7 +21,12 @@
     grid-row: 1 / 4;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__2{
@@ -29,7 +34,12 @@
     grid-row: 4 / 6;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__3{
@@ -37,7 +47,12 @@
     grid-row: 4 / 6;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__4{
@@ -45,7 +60,12 @@
     grid-row: 6 / 7;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__5{
@@ -53,7 +73,12 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__6{
@@ -61,7 +86,12 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__7{
@@ -69,7 +99,12 @@
     grid-row: 1 / 3;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__8{
@@ -77,7 +112,12 @@
     grid-row: 1 / 3;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__9{
@@ -85,7 +125,12 @@
     grid-row: 3 / 7;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__9 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__10{
@@ -93,7 +138,12 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__10 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__11{
@@ -101,7 +151,12 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__11 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__12{
@@ -109,7 +164,12 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__12 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__13{
@@ -117,7 +177,12 @@
     grid-row: 1 / 5;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__13 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__14{
@@ -125,7 +190,12 @@
     grid-row: 5 / 6;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__14 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__15{
@@ -133,7 +203,12 @@
     grid-row: 5 / 6;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__15 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__16{
@@ -141,7 +216,12 @@
     grid-row: 6 / 7;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__16 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .cajas__17{
@@ -149,5 +229,10 @@
     grid-row: 7 / 9;
     background: var(--color-primary);
     border-radius: 20px;
-    border: 1px solid black;
+}
+
+.cajas__17 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
