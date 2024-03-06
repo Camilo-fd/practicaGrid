@@ -1,5 +1,7 @@
 :root{
     --color-primary: #f6f5f8;
     --color-secundary: #fff;
+    --color--title: #f08344;
+    --color-text: #686968;
     --color-transparencia: rgba(0, 0, 0, 0.287);
 }
